@@ -1,0 +1,13 @@
+{
+    "configurations": {
+        "fullpath": "",
+        "wallpapers": {
+            "src": "wallpaper/",
+            "count": 5
+		},
+		"fonts": {
+            "src": "fonts/",
+			"count": 5
+        }
+    }
+}
