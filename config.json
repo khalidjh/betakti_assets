@@ -1,13 +1,134 @@
 {
-    "configurations": {
-        "fullpath": "",
-        "wallpapers": {
-            "src": "wallpaper/",
-            "count": 5
-		},
-		"fonts": {
-            "src": "fonts/",
-			"count": 5
+    "preview_cards": [
+        {
+            "title": "مولود",
+            "type": "born",
+            "array": [
+                {
+                    "name": "girl1",
+                    "free": true
+                },
+                {
+                    "name": "boy1",
+                    "free": false
+                },
+                {
+                    "name": "boy2",
+                    "free": true
+                }
+            ]
+        },
+        {
+            "title": "مباركة ولادة",
+            "type": "born_congrats",
+            "array": [
+                {
+                    "name": "boy1",
+                    "free": false
+                }
+            ]
+        },
+        {
+            "title": "دعوة استقبال",
+            "type": "born_invite",
+            "array": [
+                {
+                    "name": "invite1",
+                    "free": true
+                }
+            ]
+        }
+    ],
+    "all_cards": {
+        "born": {
+            "girl1": {
+                "txt": [
+                    {
+                        "color": "#fff",
+                        "size": 35,
+                        "family": "aref_menna",
+                        "content": "سارة",
+                        "top": 0.30,
+                        "left": 0.64
+                    },
+                    {
+                        "color": "#fff",
+                        "size": 15,
+                        "family": "aref_menna",
+                        "content": "11/12/1440",
+                        "top": 0.37,
+                        "left": 0.64
+                    }
+                ]
+            },
+            "boy1": {
+                "txt": [
+                    {
+                        "color": "#3499cd",
+                        "size": 40,
+                        "family": "Tajawal",
+                        "content": "محمد",
+                        "top": 0.40,
+                        "left": 0.5
+                    }
+                ]
+            },
+            "boy2": {
+                "txt": [
+                    {
+                        "color": "#8DACC2",
+                        "size": 40,
+                        "family": "Amiri",
+                        "content": "عبدالله",
+                        "top": 0.45,
+                        "left": 0.5
+                    }
+                ]
+            }
+        },
+        "born_congrats": {
+            "boy1": {
+                "txt": [
+                    {
+                        "color": "#3499cd",
+                        "size": 16,
+                        "family": "Tajawal",
+                        "content": "أختك/ أم محمد",
+                        "top": 0.53,
+                        "left": 0.5
+                    }
+                ]
+            }
+        },
+        "born_invite": {
+            "invite1": {
+                "txt": [
+                    {
+                        "color": "#EC7AA4",
+                        "size": 50,
+                        "family": "Tajawal",
+                        "content": "ابنتي",
+                        "top": 0.42,
+                        "left": 0.5
+                    },
+                    {
+                        "color": "#EC7AA4",
+                        "size": 22,
+                        "family": "Tajawal",
+                        "content": "الأحد 25 شوال",
+                        "top": 0.62,
+                        "left": 0.5
+                    },
+                    {
+                        "color": "#EC7AA4",
+                        "size": 20,
+                        "family": "Tajawal",
+                        "content": "في منزلي",
+                        "top": 0.68,
+                        "left": 0.5
+                    }
+                ]
+            }
         }
     }
 }
