@@ -15,6 +15,10 @@
                 {
                     "name": "boy2",
                     "free": true
+                },
+                {
+                    "name": "girl1",
+                    "free": true
                 }
             ]
         },
