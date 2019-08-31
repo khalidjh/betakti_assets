@@ -14,10 +14,10 @@
                 },
                 {
                     "name": "boy2",
-                    "free": true
+                    "free": false
                 },
                 {
-                    "name": "girl1",
+                    "name": "boy3",
                     "free": true
                 }
             ]
@@ -69,10 +69,26 @@
                 "txt": [
                     {
                         "color": "#3499cd",
+                        "size": 12,
+                        "family": "Tajawal",
+                        "content": "الحمد لله الذي بنعمته تتم الصالحات\nأبصر اليوم طفلي",
+                        "top": 0.32,
+                        "left": 0.5
+                    },
+                    {
+                        "color": "#3499cd",
                         "size": 40,
                         "family": "Tajawal",
                         "content": "محمد",
                         "top": 0.40,
+                        "left": 0.5
+                    },
+                    {
+                        "color": "#3499cd",
+                        "size": 12,
+                        "family": "Tajawal",
+                        "content": "نسأل الله أن يبارك فيه\nويجعله من مواليد السعادة",
+                        "top": 0.50,
                         "left": 0.5
                     }
                 ]
@@ -81,10 +97,54 @@
                 "txt": [
                     {
                         "color": "#8DACC2",
+                        "size": 12,
+                        "family": "Amiri",
+                        "content": "الحمد لله على تمام النعمة وإكتمال المنه\nأكرمنا الله بقدوم ابننا وقرة عيننا",
+                        "top": 0.35,
+                        "left": 0.5
+                    },
+                    {
+                        "color": "#8DACC2",
                         "size": 40,
                         "family": "Amiri",
                         "content": "عبدالله",
                         "top": 0.45,
+                        "left": 0.5
+                    },
+                    {
+                        "color": "#8DACC2",
+                        "size": 12,
+                        "family": "Amiri",
+                        "content": "اللهم أنبته نباتا حسنا وأرزقنا بره\nواجعله من عبادك الصالحين",
+                        "top": 0.57,
+                        "left": 0.5
+                    }
+                ]
+            },
+            "boy3": {
+                "txt": [
+                    {
+                        "color": "#264357",
+                        "size": 16,
+                        "family": "Amiri",
+                        "content": "الحمد لله على تمام النعمه\nواكتمال المنه رزقنا الله بـ",
+                        "top": 0.42,
+                        "left": 0.5
+                    },
+                    {
+                        "color": "#264357",
+                        "size": 40,
+                        "family": "Amiri",
+                        "content": "زياد",
+                        "top": 0.53,
+                        "left": 0.5
+                    },
+                    {
+                        "color": "#264357",
+                        "size": 16,
+                        "family": "Amiri",
+                        "content": "اللهم انبته نباتا حسنا\nواجعله قرة عين",
+                        "top": 0.66,
                         "left": 0.5
                     }
                 ]
